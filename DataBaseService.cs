@@ -89,7 +89,7 @@ namespace GetCurrentClassLoggerExample
             }
             catch (Exception ex)
             {
-                Console.Write($"Error: {ex.Message}");
+                Console.WriteLine($"Error: {ex.Message}");
             }
         }
 
