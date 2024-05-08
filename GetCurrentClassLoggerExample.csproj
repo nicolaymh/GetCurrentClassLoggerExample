@@ -11,4 +11,14 @@
     <PackageReference Include="NLog" Version="5.3.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="NLog.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="logs\DataBaseService\" />
+  </ItemGroup>
+
 </Project>
